@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме — Веброзробник</title>
+  <link rel="icon" href="https://fav.farm/💻" type="image/x-icon">
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+    header, section, footer { margin-bottom: 24px; padding: 16px; border-radius: 8px; background: #f9f9f9; }
+    h1, h2 { color: #2c3e50; }
+    .form-group { margin-bottom: 12px; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input, textarea, select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #3498db; color: white; padding: 10px 16px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Олександр Коваленко</h1>
+    <p><strong>Посада:</strong> Junior Frontend / React Developer</p>
+    <p>
+      Email: <a href="mailto:alex@example.com">alex@example.com</a> | 
+      GitHub: <a href="https://github.com" target="_blank" rel="noopener">github.com/alex</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Про мене</h2>
+      <p>Студент, який захоплюється сучасними вебтехнологіями, розробкою інтерфейсів на React та оптимізацією UX/UI.</p>
+    </section>
+
+    <section>
+      <h2>Досвід роботи</h2>
+      <article>
+        <h3>HTML/CSS Стажер — WebStudio</h3>
+        <p><em>Вересень 2023 — Грудень 2023</em></p>
+        <ul>
+          <li>Верстка адаптивних макетів за допомогою Figma;</li>
+          <li>Семантична розмітка та дотримання стандартів доступності (a11y).</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Освіта</h2>
+      <article>
+        <h3>Бакалавр Комп'ютерних наук</h3>
+        <p>Університет, 2021 — 2025 рр.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Зв'язатися зі мною</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="username">Ваше ім'я:</label>
+          <input type="text" id="username" name="username" placeholder="Іван Іванов" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="reason">Мета повідомлення:</label>
+          <select id="reason" name="reason">
+            <option value="job">Пропозиція роботи</option>
+            <option value="freelance">Проєкт / Фріланс</option>
+            <option value="other">Інше</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Повідомлення:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Напишіть ваше повідомлення..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>
+            <input type="checkbox" name="agree" required> Я погоджуюся на обробку персональних даних
+          </label>
+        </div>
+
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Олександр Коваленко. Усі права захищено.</p>
+  </footer>
+
+</body>
+</html>
