@@ -5,20 +5,19 @@ import Footer from './components/Footer';
 
 function App() {
   const userData = {
-    name: "Олександр Коваленко",
+    name: "Ханас Анна-Марія Андріївна варіант 24",
     title: "Junior Frontend / React Developer",
-    email: "alex@example.com",
-    github: "https://github.com",
-    degree: "Бакалавр Комп'ютерних наук",
-    university: "Університет",
-    years: "2021 — 2025 рр.",
+    email: "anna-mariia.khanas.kb.2025@lpnu.ua",
+    github: "https://github.com/Anna-Maria200908/lab_2_react.git",
+    degree: "Бакалавр з кібербезпеки та захисту інформації ",
+    university: "Національний університет Львівська політехніка",
+    years: "2025-Дотепер рр.",
     experience: [
       {
         role: "HTML/CSS Стажер",
         company: "WebStudio",
         period: "Вересень 2023 — Грудень 2023",
         tasks: [
-          "Верстка адаптивних макетів за допомогою Figma",
           "Семантична розмітка та дотримання стандартів доступності (a11y)"
         ]
       }
